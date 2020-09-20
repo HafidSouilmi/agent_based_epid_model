@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib import animation
 
-def updatePosition(homes):
+def updatePosition(homes): #this updates the position
     r=2*np.random.rand(homes.shape[0],homes.shape[1])-1
     x= homes+r
     return x
